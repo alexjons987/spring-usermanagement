@@ -10,6 +10,15 @@ public class User {
     private int age;
     private LocalDate created;
 
+    public User(String fname, String lname, String email, int age, LocalDate created) {
+        this.id = -1;
+        this.fname = fname;
+        this.lname = lname;
+        this.email = email;
+        this.age = age;
+        this.created = created;
+    }
+
     public User(int id, String fname, String lname, String email, int age, LocalDate created) {
         this.id = id;
         this.fname = fname;
