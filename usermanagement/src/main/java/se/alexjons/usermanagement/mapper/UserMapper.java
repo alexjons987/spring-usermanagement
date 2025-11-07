@@ -21,8 +21,7 @@ public class UserMapper {
                 userDTO.getFname(),
                 userDTO.getLname(),
                 userDTO.getEmail(),
-                userDTO.getAge(),
-                LocalDate.now()
+                userDTO.getAge()
         );
     }
 }
