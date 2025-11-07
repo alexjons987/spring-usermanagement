@@ -4,8 +4,6 @@ import org.springframework.stereotype.Component;
 import se.alexjons.usermanagement.model.User;
 import se.alexjons.usermanagement.model.dto.UserDTO;
 
-import java.time.LocalDate;
-
 @Component
 public class UserMapper {
     public UserDTO toDTO(User user) {

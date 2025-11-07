@@ -2,7 +2,6 @@ package se.alexjons.usermanagement.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import se.alexjons.usermanagement.model.User;
 import se.alexjons.usermanagement.model.dto.UserDTO;
 import se.alexjons.usermanagement.service.UserService;
 
